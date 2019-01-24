@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout  android:layout_margin="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<android.support.v7.widget.CardView
+    android:elevation="10dp"
+    app:cardMaxElevation="10dp"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="10dp"
+    android:layout_margin="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/modelAvailableBloodGroupTVId"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAllCaps="false"
+            android:layout_weight=".5"
+            android:gravity="center"
+            android:textColor="@color/colorGreen"
+            android:padding="10dp"
+            android:text="A+ Available"
+            android:textAlignment="center"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/modelViewAvailableBTNId"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20sp"
+            android:layout_weight=".5"
+            android:background="@drawable/view_background_design"
+            android:text="View"
+            android:textAllCaps="false"
+            android:textColor="@color/colorWhite" />
+    </LinearLayout>
+</android.support.v7.widget.CardView >
+</RelativeLayout>

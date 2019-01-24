@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorWhite"
+    tools:context=".ViewActivity.ViewActivity">
+<!--
+ <Spinner
+        android:layout_marginTop="9dp"
+        android:id="@+id/search_by_name_editTex_id"
+        android:paddingBottom="20dp"
+        android:paddingRight="140dp"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:paddingLeft="60dp"
+        android:entries="@array/search_bloodgroup"
+        android:background="@drawable/search_background"
+        android:hint="@string/search_by_name"
+        />
+-->
+
+    <Spinner
+        android:id="@+id/search_by_blood_spinner_id"
+        android:entries="@array/search_bloodgroup"
+        android:layout_width="match_parent"
+        android:paddingLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="70dp"
+        android:paddingTop="10dp"
+        android:background="@drawable/search_background"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:paddingBottom="30dp"
+        />
+
+    <EditText
+        android:id="@+id/search_by_name_editText_id"
+        android:paddingBottom="20dp"
+        android:background="@drawable/search_background"
+        android:paddingLeft="35dp"
+        android:textColorHint="@color/colorGreen"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_width="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_height="70dp"
+        android:textSize="16sp"
+        android:hint="@string/search_by_name"
+        />
+
+
+   <TextView
+       android:elevation="4dp"
+       android:textAlignment="center"
+       android:textAllCaps="false"
+       android:textSize="20sp"
+       android:id="@+id/availableDonorTVId"
+       android:textColor="@color/colorGeneral"
+       android:padding="5dp"
+       android:layout_marginLeft="10dp"
+       android:layout_marginRight="10dp"
+       android:text="@string/view_donor_list"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content" />
+<android.support.v7.widget.RecyclerView
+    android:id="@+id/viewRecyclerViewId"
+    android:layout_gravity="center"
+    android:padding="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+</android.support.v7.widget.RecyclerView>
+
+
+</LinearLayout>

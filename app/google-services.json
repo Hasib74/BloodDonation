@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "236049116989",
+    "firebase_url": "https://blooddonorlist-fb7bf.firebaseio.com",
+    "project_id": "blooddonorlist-fb7bf",
+    "storage_bucket": "blooddonorlist-fb7bf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:236049116989:android:24941591e64aeb54",
+        "android_client_info": {
+          "package_name": "com.securesoftbd.cco.bloodbonorlist"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "236049116989-iurbtj3enuapvukm3qrenl2b5idk996u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.securesoftbd.cco.bloodbonorlist",
+            "certificate_hash": "a32552f4ab4cfc86fb30367e9beb20bc9b01b2d9"
+          }
+        },
+        {
+          "client_id": "236049116989-vj99ssdiv5vvq69m3u67ol9gupc1noj0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.securesoftbd.cco.bloodbonorlist",
+            "certificate_hash": "b1f1c8d0e3a3f5d4bce3a6e10e63ad5382781a48"
+          }
+        },
+        {
+          "client_id": "236049116989-sj6llhnd536b6iptiqukuo8u15k0gnn0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA65mX-RWnmerEfLdOvxfGGXz1xMSz9_C0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "236049116989-sj6llhnd536b6iptiqukuo8u15k0gnn0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

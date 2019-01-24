@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">Blood Donor List</string>
+    <string name="add">Add</string>
+    <string name="view">View</string>
+    <string name="available_blood_group">Available Blood Group</string>
+    <string name="search_by_blood_group">Search By Blood Group</string>
+    <string name="search_by_name">Search By Name</string>
+    <string name="view_donor_list">View Donor List</string>
+    <string-array name="bloodgroup">
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+        <item>O+</item>
+        <item>O-</item>
+    </string-array>
+    <string-array name="search_bloodgroup">
+        <item>Search By Blood Group</item>
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+        <item>O+</item>
+        <item>O-</item>
+    </string-array>
+    <string name="title_activity_splash_screen">SplashScreenActivity</string>
+    <string name="socile_details">* Prevention Of Child Marriage
+        \n** Women Heated Prevention
+        \n*** Drug Resistance
+        \n**** Planting
+        \n***** The Inefficient road repair
+    </string>
+    <string name="knowlege_details">* Library
+        \n** Quiz Competition
+        \n*** Magazines published
+        \n**** Career Adda
+</string>
+    <string name="financial_details">* Help of poor students
+        \n** Help of poor family
+        \n*** Help of widow, helpless and adult person
+</string>
+    <string name="other_details">* Blood Donations
+    \n** Blood Group test
+    \n*** Medical Camp
+        \n**** Doctor Information
+        \n***** Cultural Programmes
+    </string>
+    <string name="sponsor_by_securesoft_bd_nemil_securesoftinbd_gmail_com">Sponsor By : SecureSoft BD \nEmail: securesoftinbd@gmail.com</string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+</resources>

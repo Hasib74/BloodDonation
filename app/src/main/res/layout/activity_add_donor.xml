@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddActivity.AddDonorActivity">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/donorImageId"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:textColor="@color/colorGreen"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="8dp"
+        android:src="@drawable/profile_add_icon"
+        android:transitionName="tran"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <LinearLayout
+        android:padding="5dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:textColor="@color/colorGeneral"
+            android:id="@+id/nameTVId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="44dp"
+            android:text="Name : "
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.312" />
+
+        <EditText
+            android:textColor="@color/colorGreen"
+            android:id="@+id/nameETId"
+            android:textSize="16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:backgroundTint="@color/colorWhite"
+            android:ems="10"
+            android:hint="Enter Donor Name"
+            android:inputType="textPersonName"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:textSize="16sp"
+            android:textColor="@color/colorGeneral"
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="44dp"
+            android:text="Age : "
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/ageETId"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.402" />
+
+        <EditText
+            android:id="@+id/ageETId"
+            android:textColor="@color/colorGreen"
+            android:textSize="16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:backgroundTint="@color/colorWhite"
+            android:ems="10"
+            android:hint="Enter Donor Age"
+            android:inputType="number"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.244"
+            app:layout_constraintStart_toEndOf="@+id/nameTVId"
+            app:layout_constraintTop_toBottomOf="@+id/donorImageId"
+            app:layout_constraintVertical_bias="0.238" />
+    </LinearLayout>
+    <LinearLayout
+        android:padding="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+
+
+
+
+    <TextView
+        android:textSize="16sp"
+        android:textColor="@color/colorGeneral"
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="Blood group : "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/spinnerId"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Spinner
+        android:id="@+id/spinnerId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:ems="10"
+        android:entries="@array/bloodgroup"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.28"
+        app:layout_constraintStart_toEndOf="@+id/nameTVId"
+        app:layout_constraintTop_toBottomOf="@+id/donorImageId"
+        app:layout_constraintVertical_bias="0.372" />
+</LinearLayout>
+    <LinearLayout
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/textView4"
+            android:textColor="@color/colorGeneral"
+            android:layout_width="wrap_content"
+
+            android:textSize="16sp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="44dp"
+            android:text="Contract Number : "
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/contractETId"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.572" />
+
+        <EditText
+            android:textSize="16sp"
+            android:id="@+id/contractETId"
+            android:textColor="@color/colorGreen"
+            android:backgroundTint="@color/colorWhite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:ems="10"
+            android:hint="Contract Number"
+            android:inputType="phone" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:textColor="@color/colorGeneral"
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:textSize="16sp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="44dp"
+            android:layout_marginLeft="44dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:text="Last date of donation : "
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.665" />
+
+        <TextView
+            android:textSize="16sp"
+            android:id="@+id/lastDonatedateTVId"
+            android:layout_width="155dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorGreen"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:paddingRight="20dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:drawableRight="@drawable/date_icon"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="dd-mm-yyyy"
+            android:textAlignment="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.783"
+            app:layout_constraintStart_toEndOf="@+id/nameTVId"
+            app:layout_constraintTop_toBottomOf="@+id/donorImageId"
+            app:layout_constraintVertical_bias="0.578" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:textColor="@color/colorGeneral"
+            android:layout_marginLeft="44dp"
+            android:textSize="16sp"
+            android:id="@+id/addressTVId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Address :"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.737" />
+
+        <EditText
+            android:id="@+id/addressETId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:textColor="@color/colorGreen"
+            android:textSize="16sp"
+            android:backgroundTint="@color/colorWhite"
+            android:layout_marginLeft="10dp"
+            android:hint="Enter the Donor Address"
+            android:inputType="textPersonName"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.694"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/lastDonatedateTVId"
+            app:layout_constraintVertical_bias="0.0" />
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/doneBTNId"
+        android:layout_width="154dp"
+        android:layout_height="38dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/confirm_button_design"
+        android:text="Done"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addressETId" />
+</LinearLayout>
